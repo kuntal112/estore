@@ -1,0 +1,36 @@
+.cartscreen{
+    max-width: 960px;
+    margin:10px auto;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+.cartscreen .cartscreen_left{
+    display: flex;
+    flex: 0.6;
+    padding: 1rem;
+
+}
+
+.cartscreen .cscreen_right{
+    flex: 0.4;
+    flex-direction: column;
+    height: fit-content;
+    background-color: #f4f4f4;
+    padding: 1rem;
+}
+.cartscreen .cscreen_right p{
+    width:100%;
+    
+    padding: 10px;
+}
+@media(max-width:650px){
+    .cartscreen{
+        flex-direction: column;
+    }
+    .cartscreen .cscreen_right{
+        flex: 1;
+        width: 100%;
+    }
+}

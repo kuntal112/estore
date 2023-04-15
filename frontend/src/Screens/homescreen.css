@@ -1,0 +1,12 @@
+
+.homescreen{
+    max-width: 950px;
+    min-width: 70%;
+    margin: 0 auto;
+}
+.homescreen .product_div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+}

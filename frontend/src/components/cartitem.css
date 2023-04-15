@@ -1,0 +1,12 @@
+.cartitem{
+    /* background-color: crimson; */
+    width: 100%;
+    display: grid;
+    grid-gap: 8px;
+    padding-left: 10px;
+    grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
+    place-items: center;
+}
+.cartitem .cartitem_image img{
+    width: 100%;
+}
